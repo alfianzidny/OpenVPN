@@ -68,6 +68,7 @@ find /hdd/PureVPN -type d -exec cp "/hdd/linux-files/OpenVPN_Config_Files/TCP/Wd
 cd
 echo $LINE
 
+# Config VPN Manager
 cd .
 init 4
 sleep 3
