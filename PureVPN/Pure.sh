@@ -46,6 +46,8 @@ rm -v /hdd/PureVPN.zip &> /dev/null 2>&1
 mv "/hdd/linux-files/OpenVPN_Config_Files/UDP" /hdd/PureVPN
 
 cd /hdd/PureVPN &> /dev/null 2>&1
+# rename .ovpn to .conf
+for x in *.ovpn; do mv "$x" "${x%.ovpn}.conf"; done
 cd
 echo $LINE
 
