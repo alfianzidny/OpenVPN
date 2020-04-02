@@ -56,7 +56,7 @@ done
 cd .
 init 4
 sleep 3
-sed -i '$i config.vpnmanager.directory=/hdd/PureVPN/' /etc/enigma2/settings
+sed -i '$i config.vpnmanager.directory=/hdd/Surfhark/' /etc/enigma2/settings
 sed -i '$i config.vpnmanager.username=USERNAME' /etc/enigma2/settings
 sed -i '$i config.vpnmanager.password=PASSWORD' /etc/enigma2/settings
 sed -i -e "s/USERNAME/$USERNAME/g" /etc/enigma2/settings;sed -i -e "s/PASSWORD/$PASSWORD/g" /etc/enigma2/settings &> /dev/null 2>&1
